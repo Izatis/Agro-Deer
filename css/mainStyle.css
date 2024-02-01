@@ -499,7 +499,6 @@ a.nav__other-lang {
   background: #507d29;
   border: none;
   min-height: 50px;
-  margin-top: 10px;
   position: relative;
   min-width: 250px;
   outline: none;
@@ -524,16 +523,16 @@ a.nav__other-lang {
   color: white;
 }
 
+.main__form-submit:active::before {
+  bottom: 0;
+}
+
 .btn-kg::before {
   content: "Байланышуу";
 }
 
 .btn-ru::before {
   content: "Отравить запрос";
-}
-
-.main__form-submit:active::before {
-  bottom: 0;
 }
 
 .group {
